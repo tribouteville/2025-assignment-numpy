@@ -92,7 +92,3 @@ def wallis_product(n_terms):
     # XXX : The n_terms is an int that corresponds to the number of
     # terms in the product. For example 10000.
     return 2*pi_approx
-
-
-for m in range(20):
-    print(wallis_product(m))
